@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ct-orange: #ff6a00;
+  --color-ct-orange-dark: #e05d00;
+  --color-ct-orange-soft: #fff1e6;
+  --color-ct-black: #0f0f0f;
+  --color-ct-gray: #f2f2f2;
+  --color-danger: #d50000;
+  --color-success: #1b8a3a;
+
+  --font-sans: var(--font-nunito-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  @apply bg-ct-gray text-ct-black antialiased;
+}

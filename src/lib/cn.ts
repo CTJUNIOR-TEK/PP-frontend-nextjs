@@ -1,0 +1,4 @@
+/** Junta classes do Tailwind ignorando valores falsy. */
+export function cn(...classes: Array<string | false | null | undefined>) {
+  return classes.filter(Boolean).join(" ");
+}
